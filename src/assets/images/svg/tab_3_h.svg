@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="37.875" viewBox="0 0 56 37.875">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="23.381" height="21.507" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Tab_3" data-name="Tab 3" transform="translate(0 -4)">
+    <text id="Label" transform="translate(0 27.875)" fill="#fff" font-size="10" font-family="ArticulatCFv2-Bold, Articulat CF v2" font-weight="700" letter-spacing="-0.024em"><tspan x="14.712" y="10">Home</tspan></text>
+    <g id="Icon" transform="translate(15.97 4)" clip-path="url(#clip-path)">
+      <path id="HomeIcon" d="M17.97,0,11.692,11.086,5.412,0H0V20.161H5.591V10.735l6.1,10.772,6.1-10.771v9.425h5.591V0Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

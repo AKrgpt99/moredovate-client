@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="37.25" viewBox="0 0 45 37.25">
+  <g id="Tab_1" data-name="Tab 1" transform="translate(0 -2.625)">
+    <text id="Label" transform="translate(0 27.875)" fill="#a9a9af" font-size="10" font-family="ArticulatCFv2-Bold, Articulat CF v2" font-weight="700" letter-spacing="-0.024em"><tspan x="9.997" y="10">Goals</tspan></text>
+    <g id="Icon" transform="translate(10.694 2.625)">
+      <path id="Combined_Shape" data-name="Combined Shape" d="M17.93,22.064l-5.556-3.993a.976.976,0,0,0-1.136,0L5.682,22.064a.957.957,0,0,1-.565.186A.945.945,0,0,1,4.2,21.021l2.134-6.495a.927.927,0,0,0-.346-1.043L.393,9.462A.935.935,0,0,1,.96,7.768h6.9a.957.957,0,0,0,.913-.651L10.893.651a.966.966,0,0,1,1.827,0l2.123,6.465a.957.957,0,0,0,.913.651h6.9a.935.935,0,0,1,.567,1.695l-5.6,4.022a.927.927,0,0,0-.346,1.043l2.134,6.495a.945.945,0,0,1-.916,1.229A.957.957,0,0,1,17.93,22.064Z" transform="translate(0)" fill="#a9a9af"/>
+    </g>
+  </g>
+</svg>

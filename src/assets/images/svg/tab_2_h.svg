@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="39" viewBox="0 0 56 39">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="20.542" height="22.194" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Tab_2" data-name="Tab 2" transform="translate(0 -2.875)">
+    <text id="Label" transform="translate(0 27.875)" fill="#fff" font-size="10" font-family="ArticulatCFv2-Bold, Articulat CF v2" font-weight="700" letter-spacing="-0.024em"><tspan x="19.062" y="10">Diet</tspan></text>
+    <g id="Icon" transform="translate(17.97 2.875)" clip-path="url(#clip-path)">
+      <path id="DietIcon" d="M16.382,5.721a5.41,5.41,0,0,0-4.961,1.073,1.088,1.088,0,0,1-.15.1,4.7,4.7,0,0,1,4.744-4.044A.667.667,0,0,0,16.7,2.2a.667.667,0,0,0-.7-.649A6.256,6.256,0,0,0,11.11,3.882,4.753,4.753,0,0,0,6.409.249H3.672A.669.669,0,0,0,2.986.9a4.685,4.685,0,0,0,4.8,4.55H10.22a5.539,5.539,0,0,0-.332,1.5A5.427,5.427,0,0,0,4.777,5.617,5.426,5.426,0,0,0,.7,9.3a11.855,11.855,0,0,0-.241,5.43c.791,4.259,3.527,7.716,6.363,7.716a3.484,3.484,0,0,0,1.607-.389,4.648,4.648,0,0,1,4.193,0,3.472,3.472,0,0,0,1.605.389c2.837,0,5.572-3.457,6.363-7.716A11.949,11.949,0,0,0,20.4,9.465,5.3,5.3,0,0,0,16.382,5.721Z" transform="translate(-0.252 -0.249)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

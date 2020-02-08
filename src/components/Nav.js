@@ -1,83 +1,9 @@
 import React from "react";
 import { useLocation, Link } from "react-router-dom";
 
-const FabNav = () => {
-  let [open, setOpen] = React.useState(false);
-  let location = useLocation();
-
-  return (
-    <div className="d-flex justify-content-start align-items-center">
-      <Link
-        className="custom-bottom-nav btn btn-primary d-flex justify-content-center align-items-center"
-        style={{
-          width: "64px",
-          height: "64px",
-          borderRadius: "64px",
-          position: "fixed",
-          zIndex: "1000",
-          bottom: "32px",
-          left: window.innerWidth > 576 ? "32%" : "8%"
-        }}
-        onClick={() => setOpen(!open)}
-      >
-        {open ? <i className="fas fa-times" /> : <i className="fas fa-bars" />}
-      </Link>
-      {open ? (
-        <div
-          className="custom-bottom-nav d-flex align-items-center bg-secondary"
-          style={{
-            height: "64px",
-            borderRadius: "32px",
-            position: "fixed",
-            zIndex: "1000",
-            bottom: "32px",
-            left: window.innerWidth > 576 ? "38%" : "32%"
-          }}
-        >
-          <Link
-            to="/goals"
-            className="custom-bottom-nav"
-            style={{
-              color:
-                location.pathname === "/goals" ? "var(--primary)" : "inherit"
-            }}
-            onClick={() => setOpen(false)}
-          >
-            <i className="fas fa-star m-4" />
-          </Link>
-          <Link
-            to="/"
-            className="custom-bottom-nav"
-            style={{
-              color:
-                location.pathname === "/" ||
-                location.pathname === "/workout" ||
-                location.pathname === "/nutrition"
-                  ? "var(--primary)"
-                  : "inherit"
-            }}
-            onClick={() => setOpen(false)}
-          >
-            <i className="fas fa-home m-4" />
-          </Link>
-          <Link
-            to="/settings"
-            className="custom-bottom-nav"
-            style={{
-              color:
-                location.pathname === "/settings" ? "var(--primary)" : "inherit"
-            }}
-            onClick={() => setOpen(false)}
-          >
-            <i className="fas fa-cog m-4" />
-          </Link>
-        </div>
-      ) : (
-        ""
-      )}
-    </div>
-  );
-};
+import rightArrow from "../assets/images/svg/right_arrow.svg";
+import leftArrow from "../assets/images/svg/left_arrow.svg";
+import Logo from "../assets/images/svg/Logo.svg";
 
 const LoginNav = () => (
   <nav className="navbar d-flex justify-content-center align-items-center">
@@ -133,14 +59,25 @@ const DefaultNav = () => {
   let location = useLocation();
   return (
     <React.Fragment>
-      <nav className="navbar d-flex flex-column justify-content-center align-items-center mt-4">
+      <nav
+        className="navbar d-flex flex-column justify-content-center align-items-center pt-4"
+        style={{ backgroundColor: "#474858" }}
+      >
         <div
           className="d-flex justify-content-center align-items-center"
-          style={{ marginBottom: "-12px" }}
+          style={{ marginBottom: "9px" }}
         >
-          <h1 style={{ fontSize: "18px", color: "darkgray" }}>MOREDOVATE</h1>
+          <img src={Logo} />
         </div>
-        <div className="d-flex justify-content-center align-items-center w-100">
+        <div
+          className={`d-flex justify-content-${
+            location.pathname === "/" ||
+            location.pathname === "/nutrition" ||
+            location.pathname === "/workout"
+              ? "between"
+              : "center"
+          } align-items-center w-100`}
+        >
           {location.pathname === "/" ||
           location.pathname === "/workout" ||
           location.pathname === "/nutrition" ? (
@@ -154,14 +91,14 @@ const DefaultNav = () => {
               }
               className="custom-link"
             >
-              <i className="fas fa-chevron-left" style={{ fontSize: "24px" }} />
+              <img className="" src={leftArrow} />
             </Link>
           ) : (
             ""
           )}
           <h1
             className="mx-4"
-            style={{ fontSize: window.innerWidth > 576 ? "32" : "32px" }}
+            style={{ fontSize: window.innerWidth > 576 ? "30" : "30px" }}
           >
             {location.pathname.split("/")[1] === ""
               ? "DASHBOARD"
@@ -186,10 +123,7 @@ const DefaultNav = () => {
               }
               className="custom-link"
             >
-              <i
-                className="fas fa-chevron-right"
-                style={{ fontSize: "24px" }}
-              />
+              <img src={rightArrow} />
             </Link>
           ) : (
             ""
@@ -201,33 +135,34 @@ const DefaultNav = () => {
           <div className="d-flex justify-content-center">
             <div
               style={{
-                border: "1px solid white",
-                width: "12px",
-                height: "12px",
-                borderRadius: "12px",
-                margin: "12px",
+                border: "1px solid #A9A9AF",
+                width: "6.5px",
+                height: "6.5px",
+                borderRadius: "6.5px",
+                margin: "6.5px",
                 backgroundColor:
-                  location.pathname === "/nutrition" ? "white" : ""
+                  location.pathname === "/nutrition" ? "#A9A9AF" : ""
               }}
             />
             <div
               style={{
-                border: "1px solid white",
-                width: "12px",
-                height: "12px",
-                borderRadius: "12px",
-                margin: "12px",
-                backgroundColor: location.pathname === "/" ? "white" : ""
+                border: "1px solid #A9A9AF",
+                width: "6.5px",
+                height: "6.5px",
+                borderRadius: "6.5px",
+                margin: "6.5px",
+                backgroundColor: location.pathname === "/" ? "#A9A9AF" : ""
               }}
             />
             <div
               style={{
-                border: "1px solid white",
-                width: "12px",
-                height: "12px",
-                borderRadius: "12px",
-                margin: "12px",
-                backgroundColor: location.pathname === "/workout" ? "white" : ""
+                border: "1px solid #A9A9AF",
+                width: "6.5px",
+                height: "6.5px",
+                borderRadius: "6.5px",
+                margin: "6.5px",
+                backgroundColor:
+                  location.pathname === "/workout" ? "#A9A9AF" : ""
               }}
             />
           </div>
@@ -235,7 +170,7 @@ const DefaultNav = () => {
           ""
         )}
       </nav>
-      <FabNav />
+      {/* <FabNav /> */}
     </React.Fragment>
   );
 };

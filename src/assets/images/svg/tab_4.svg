@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="38.875" viewBox="0 0 56 38.875">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="23.301" height="21.08" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Tab_4" data-name="Tab 4" transform="translate(0 -3)">
+    <text id="Label" transform="translate(0 27.875)" fill="#a9a9af" font-size="10" font-family="ArticulatCFv2-Bold, Articulat CF v2" font-weight="700" letter-spacing="-0.024em"><tspan x="8.459" y="10">Workout</tspan></text>
+    <g id="Icon" transform="translate(15.97 3)" clip-path="url(#clip-path)">
+      <path id="WorkoutIcon" d="M19.9.857A6.338,6.338,0,0,0,16.719,0,6.464,6.464,0,0,0,11.65,2.5,6.464,6.464,0,0,0,6.578,0,6.345,6.345,0,0,0,3.4.857,6.964,6.964,0,0,0,0,6.906,7.105,7.105,0,0,0,.325,9.035a6.539,6.539,0,0,0,.44,1.3H5.016L6.083,8.466a.861.861,0,0,1,1.5-.03l1.532,2.489,1.893-5.364a.885.885,0,0,1,.825-.6h0a.885.885,0,0,1,.827.6l1.7,4.78h2.927a.926.926,0,0,1,0,1.85H13.751a.89.89,0,0,1-.828-.6l-1.081-3.05L10.166,13.3a.866.866,0,0,1-.825.6.878.878,0,0,1-.741-.421l-1.727-2.79-.6,1.052a.879.879,0,0,1-.752.451H1.838C5,16.687,11.651,21.08,11.651,21.08S21.845,14.362,22.974,9.037A7.154,7.154,0,0,0,23.3,6.906,6.967,6.967,0,0,0,19.9.857Z" transform="translate(0.002)" fill="#a9a9af"/>
+    </g>
+  </g>
+</svg>
